@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  /*scroll-behavior: smooth; */
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  flex-direction: row;
+  background-color: rgba(238, 249, 203, 0.8);
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://noahlevyart.weebly.com/uploads/8/4/8/7/84879864/dsc-0429-1-patterns_orig.jpg');
+  background-size: cover; /* Makes image cover entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  padding: 200px;
+}
+
+SC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #7d45ff, #214aff);
+}
+
+UC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #4fca99, #214aff);
+}
+
+img {
+  display: flex;
+  width: 800px; 
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  align-items: center;
+  padding: 12px;
+}
+
+img:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+div {
+  padding: 8px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-indent: 50px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h1:hover {
+    text-shadow:0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+h2 {
+    color: white;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 24px;
+}
+
+form {
+    background: white;
+    padding: 36px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #7d45ff, #214aff);
+    box-sizing: border-box;
+}
+
+form:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+label, input {
+  display: block;
+}
+
+input {
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    font-size: 16px;;
+    box-shadow: 5px 5px ;
+}
+
+
+button {    
+    padding: 16px;
+    background: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+
+
+input,button {
+  width: 100%;
+}
+
+
