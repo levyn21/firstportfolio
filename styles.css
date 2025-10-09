@@ -76,6 +76,7 @@ landing {
   position: relative;
   width: 100%;
   overflow: hidden;
+  min-height: 100dvh;
 }
 
 .slider {
@@ -281,3 +282,4 @@ footer p {
 ol {
   padding: 48px;
 }
+
